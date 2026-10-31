@@ -1,0 +1,17 @@
+{
+  "version": "expanded-v2",
+  "seed": 20261029,
+  "recipes": [
+    "all_clean",
+    "own_clean",
+    "neighbors_clean",
+    "own_augmented"
+  ],
+  "proper_sessions": 96,
+  "calibration_sessions": 24,
+  "selection": "3 grouped folds; equal-weight clean and assumed RGB-noise validation MSE; no test/challenge tuning",
+  "perturbation": "Per-session, per-pad RGB Gaussian sd=3; per-image sd=0.5; HSV/LAB recomputed; applied within training folds only",
+  "old_holdout_status": "Previously inspected; comparisons are exploratory. New audit generated only after selection.",
+  "audit_seed": 20271029,
+  "audit_sessions": 20
+}

@@ -1,0 +1,12 @@
+partition,scenario,count,sum,mean
+challenge,camera_batch_shift,300,295,0.9833333333333333
+stress,heavy_blur,30,0,0.0
+stress,missing_marker,30,0,0.0
+stress,underexposure,30,0,0.0
+stress,upside_down,30,0,0.0
+test,low_range,100,100,1.0
+test,mixed_extremes,100,100,1.0
+test,standard,100,100,1.0
+train,low_range,400,400,1.0
+train,mixed_extremes,400,400,1.0
+train,standard,400,400,1.0

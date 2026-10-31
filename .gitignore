@@ -1,0 +1,33 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Portable archives and extracted historical snapshots
+*.zip
+/AquaSense_All_In_One/
+/AquaSense_500_Synthetic_Images/
+
+# Regenerable synthetic images, preprocessing, and trained binaries
+/image_study_500/datasets/images/
+/image_study_500/datasets/preprocessed/
+/image_study_500/scenario_study/images/
+/image_study_500/improved_study/audit_images/
+/image_study_500/models/
+/image_study_500/improved_study/models/
+/image_study_500/scenario_study/models/
+
+# Local app captures and database
+/image_study_500/runtime/
+*.sqlite3
+
+# Secrets and local environment files
+.env
+.env.*
+!*.example.env
+secrets.h
+**/secrets.h
+
